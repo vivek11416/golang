@@ -6,6 +6,11 @@ import (
 
 func main() {
 
-	fmt.Println("hello World")
+	card := newCard()
+	fmt.Println(card)
 
+}
+
+func newCard() string {
+	return "Five of Diamonds"
 }
